@@ -10,5 +10,5 @@ module Concerns::Findable
   
 end
 
-# no self
-# class variables 
+# no self in method name
+# no class variables 

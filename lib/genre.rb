@@ -19,10 +19,6 @@ class Genre
     @@all << self
   end 
   
-  # def self.reset_all 
-  #   @@all.clear 
-  # end 
-  
   def self.destroy_all
     self.all.clear
   end
@@ -36,7 +32,5 @@ class Genre
   def artists
     songs.collect{ |s| s.artist }.uniq 
   end 
-  # def self.find_by_name(name)
-  #   @@all.detect{|genre| genre.name == name}
-  # end
+
 end 
